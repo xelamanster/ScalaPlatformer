@@ -1,0 +1,1 @@
+Implementation of the simple platformer game using LibGDX and Scala.
