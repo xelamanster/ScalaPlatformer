@@ -12,7 +12,7 @@ import com.xelamanster.data.physics.Player
 
 class DemoScreen extends Screen {
   val camera = new OrthographicCamera(Gdx.graphics.getWidth, Gdx.graphics.getHeight)
-  camera.position.set(Gdx.graphics.getWidth/2, Gdx.graphics.getHeight/2, 0)
+  camera.position.set(Gdx.graphics.getWidth / 2, Gdx.graphics.getHeight / 2, 0)
   camera.update()
 
   val mainBatch = new SpriteBatch
